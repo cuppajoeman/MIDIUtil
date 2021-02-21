@@ -74,7 +74,7 @@ Adding a Program Change Event
 The program change event tells the the instrument what voice a
 certain track should sound. As an example, if the instrument you're
 using supports `General MIDI <https://www.midi.org/specifications/item/gm-level-1-sound-set>`_,
-you can use the GM numbers to specify the instrument.
+you can use the GM numbers to specify the instrument. For example, to add a drum beat, you would write your data to channel 9 (10'th channel) using different pitches (corresponding to different percussion instruments)
 
 **Important Note:** Within this library program numbers are
 zero-origined (as they are on a byte-level within the MIDI
